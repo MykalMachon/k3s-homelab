@@ -22,3 +22,11 @@ Current hosts are as follows:
 
 This setup allows for a good chunk bit resiliency; ideally however I would have a fully redundant load balancer in front of my k8s api servers / control planes. 
 Most of these nodes are split across different machines. Some run on bare metal x86 hosts and others are run via vm's on my unraid nas.
+
+## Applications 
+
+Here's a list of deployments in the cluster when it's up and happy 
+
+| App Name      | Description                                                            |
+| ------------- | ---------------------------------------------------------------------- |
+| K8s Dashboard | a dashboard to monitor services deployed to the cluster and resourcing |
